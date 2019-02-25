@@ -14,3 +14,4 @@ config.py
 .DS_Store
 /worker_stop
 worker_*.lock
+/.vscode
