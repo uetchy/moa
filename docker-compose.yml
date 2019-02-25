@@ -1,0 +1,10 @@
+version: '3.2'
+services:
+  app:
+    build: .
+    environment:
+      MOA_CONFIG: config.ProductionConfig
+    volumes:
+      - type: bind
+        source: ./config.py
+        target: /usr/src/app/config.py
